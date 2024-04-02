@@ -1,0 +1,23 @@
+$primaryColor: #4527a4;
+
+.prefixNowEditing {
+	outline: 2px solid $primaryColor;
+}
+
+.prefixInspectorInfo {
+	padding: 6px;
+
+	a {
+		text-decoration: none;
+		font-weight: bold;
+	}
+}
+
+.fbebPanelStyle{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	span{
+		margin-top: -10px;
+	}
+}

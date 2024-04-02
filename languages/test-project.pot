@@ -1,0 +1,96 @@
+# Copyright (C) 2024 bPlugins LLC
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Facebook Embed Block 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/facebook embed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-02T17:45:16+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: b-blocks\n"
+
+#. Plugin Name of the plugin
+msgid "Facebook Embed Block"
+msgstr ""
+
+#. Description of the plugin
+msgid "The Facebook Embed Block allows you to embed Facebook posts, videos on your website or blog."
+msgstr ""
+
+#. Author of the plugin
+msgid "bPlugins LLC"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://bplugins.com"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1341
+msgid "Embed"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1343
+msgid "App Id"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1350
+msgid "Type"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1359
+msgid "URL"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1364
+msgid "Full Post"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1371
+msgid "Show Caption"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1376
+msgid "Full Screen"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1381
+msgid "Auto Play"
+msgstr ""
+
+#: dist/editor.js:1
+#: dist/editor.js:1388
+msgid "Width"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block title"
+msgid "Facebook Embed Block"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "facebook"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "embed"
+msgstr ""
+
+#: inc/block.json
+msgctxt "block keyword"
+msgid "post"
+msgstr ""

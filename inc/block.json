@@ -1,0 +1,55 @@
+{
+  "apiVersion": "1",
+  "name": "b-blocks/facebook-embed-block",
+  "describtion":"The Facebook Embed allows you to embed Facebook posts, videos on your website or blog.",
+  "title": "Facebook Embed Block",
+  "category": "widgets",
+  "keywords": ["facebook", "embed", "post"],
+  "textdomain": "b-blocks",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": ""
+    },
+    "cId": {
+      "type": "string",
+      "default": ""
+    },
+    "content": {
+      "type": "string",
+      "default": "Lorem text should be replaced with real text"
+    },
+    "facebook": {
+      "type": "object",
+      "default": {
+        "appId": "",
+        "type": "post",
+        "url": {
+          "post": "https://www.facebook.com/andrewismusic/posts/451971596293956",
+          "video": "https://fb.watch/pgIOrXrhIl/"
+        },
+        "fullScreen": false,
+        "autoPlay": false,
+        "height": "100%",
+        "width": 500,
+        "caption": false,
+        "fullPost": true
+      }
+    }
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "example": {
+    "attributes": {
+      "preview": true,
+      "columns": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      }
+    }
+  },
+  "editorScript": "file:./../dist/editor.js"
+}
