@@ -1,11 +1,11 @@
 {
   "apiVersion": "1",
-  "name": "b-blocks/facebook-embed-block",
-  "describtion":"The Facebook Embed allows you to embed Facebook posts, videos on your website or blog.",
-  "title": "Facebook Embed Block",
+  "name": "b-blocks/social-media-embed",
+  "description": "Social Media Embed  allows you to Fb posts, videos on your website or blog.",
+  "title": "Social Media Embed Block",
   "category": "widgets",
   "keywords": ["facebook", "embed", "post"],
-  "textdomain": "b-blocks",
+  "textdomain": "social-media-embed",
   "attributes": {
     "align": {
       "type": "string",

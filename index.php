@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name: Facebook Embed Block
- * Description:The Facebook Embed Block allows you to embed Facebook posts, videos on your website or blog.
+ * Plugin Name: Social Media Embed Block
+ * Description:The Social Media Embed Block allows you to Social Media Embed posts, videos on your website or blog.
  * Version: 1.0.0
  * Author: bPlugins LLC
  * Author URI: http://bplugins.com
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
- * Text Domain: b-blocks
+ * Text Domain: social-media-embed
  */
 
 // ABS PATH

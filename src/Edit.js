@@ -13,7 +13,7 @@ const Edit = (props) => {
       <InspectorControls>
         <Setting attributes={attributes} setAttributes={setAttributes} />
       </InspectorControls>
-      <div className={className} id={`fbeb-facebook-embed-block-${cId}`}>
+      <div className={className} id={`fbeb-social-media-embed-${cId}`}>
         <Facebook attributes={attributes} />
       </div>
     </Fragment>

@@ -1,7 +1,7 @@
-=== Facebook Embed ===
+=== Social Media Embed ===
 Contributors: abuhayat
 Donate link: https://gum.co/wpdonate/
-Tags: block, key1, key2, key3, Gutenberg block
+Tags: block, facebook,embed,post, Gutenberg block
 Requires at least: 6.2+
 Tested up to: 6.4.3
 Stable tag: 1.0.0
@@ -9,16 +9,14 @@ Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Description of the Facebook Embed
-
-The Facebook Embed Plugin is a great way to share your Facebook content with a wider audience, and to drive traffic to your Facebook page.
+Social Media Embed block is a great way to share your Facebook content with a wider audience, and to drive traffic to your Facebook page.
 
 == Description ==
 
-The Facebook Embed allows you to embed Facebook posts, videos, and other content on your website or blog. This can be a great way to share your Facebook content with a wider audience, and to drive traffic to your Facebook page.
+Social Media Embed Block allows you to Social Media Embed posts, videos, and other content on your website or blog. This can be a great way to share your Facebook content with a wider audience, and to drive traffic to your Facebook page.
 
 
-**[Demos](https://bblockswp.com/demo/facebook-embed-block)**
+**[Demos](https://bblockswp.com/demo/social-media-embed)**
 
 
 = Features =
@@ -26,12 +24,12 @@ The Facebook Embed allows you to embed Facebook posts, videos, and other content
 
 - **Customize the look and feel**: You can customize the look and feel of the embedded content to match your website or blog.
 
-- **Easy to use**: The Facebook Embed block is easy to use. Simply copy and paste the link in facebook embed block.
+- **Easy to use**: The Social Media Embed block is easy to use. Simply copy and paste the link in Social Media Embed block.
 
 
 = How to use =
-- First, install the Facebook Embed block
-- Add the Facebook Embed from the block category called "Widgets" in Gutenberg editor.
+- First, install the Social Media Embed block
+- Add the Social Media Embed from the block category called "Widgets" in Gutenberg editor.
 - You can change block settings from the right-side settings sidebar.
 - Go to the Facebook post, video you want to embed. Click on the "Share" button and copy link. Paste the link URL field.
 - Enjoy!
@@ -65,25 +63,25 @@ The Facebook Embed allows you to embed Facebook posts, videos, and other content
 
 = From Gutenberg Editor: =
 1. Go to the WordPress Block/Gutenberg Editor
-2. Search For **Facebook Embed Block**
-3. Click on the **Facebook Embed Block** to add the block
+2. Search For **Social Media Embed Block**
+3. Click on the **Social Media Embed Block** to add the block
 
 = Download & Upload: =
-1. Download the **Facebook Embed Block** plugin (*facebook-embed-block.zip file*)
+1. Download the **Social Media Embed Block** plugin (*social-media-embed.zip file*)
 2. In your admin area, go to the Plugins menu and click on **Add New**
 3. Click on **Upload Plugin** and choose the **`plugin-slug.zip`** file and click on **Install Now**
 4. Activate the plugin and Enjoy!
 
 = Manually: =
-1. Download and upload the **Facebook Embed Block** plugin to the **`/wp-content/plugins/`** directory
+1. Download and upload the **Social Media Embed Block** plugin to the **`/wp-content/plugins/`** directory
 2. Activate the plugin through the Plugins menu in WordPress
 
 
 == Frequently Asked Questions ==
 
-= Is Facebook Embed free? =
+= Is Social Media Embed free? =
 
-Yes, Facebook Embed is a free Gutenberg block plugin.
+Yes, Social Media Embed is a free Gutenberg block plugin.
 
 = Does it work with any WordPress theme? =
 
@@ -99,12 +97,12 @@ You can use unlimited times as you want.
 
 = Where can I get support? =
 
-You can post your questions on the [support forum here](https://wordpress.org/support/plugin/facebook-embed-block/)
+You can post your questions on the [support forum here](https://wordpress.org/support/plugin/social-media-embed/)
 
 
 == Screenshots ==
 
-1. Facebook Embed Block
+1. Social Media Embed Block
 2. Settings
 
 

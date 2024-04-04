@@ -1,7 +1,7 @@
 {
-  "name": "facebook-embed-block",
+  "name": "social-media-embed",
   "version": "1.0.0",
-  "description": "The Facebook Embed allows you to embed Facebook posts, videos on your website or blog.",
+  "description": "The Social Media Embed allows you to Social Media Embed posts, videos on your website or blog.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",

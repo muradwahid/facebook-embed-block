@@ -21,5 +21,5 @@ export const bundle = () =>
       '!todo.txt',
       '!webpack.config.js',
     ])
-    .pipe(zip('facebook-embed-block.zip'))
+    .pipe(zip('social-media-embed.zip'))
     .pipe(gulp.dest('bundled'));

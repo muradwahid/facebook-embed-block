@@ -26,16 +26,16 @@ const Setting = ({ attributes, setAttributes }) => {
     setAttributes({ facebook: updatedData });
   };
   return (
-    <PanelBody title={__('Embed', 'b-blocks')} initialOpen={true}>
+    <PanelBody title={__('Embed', 'social-media-embed')} initialOpen={true}>
       <div className="fbebPanelStyle">
-        <span>{__('App Id', 'b-blocks')}</span>
+        <span>{__('App Id', 'social-media-embed')}</span>
         <TextControl
           value={facebook.appId}
           onChange={(value) => update('appId', value)}
         />
       </div>
       <div className="fbebPanelStyle">
-        <span>{__('Type', 'b-blocks')}</span>
+        <span>{__('Type', 'social-media-embed')}</span>
         <SelectControl
           style={{ width: '140px', marginBottom: '0' }}
           value={facebook.type}
@@ -44,36 +44,36 @@ const Setting = ({ attributes, setAttributes }) => {
         />
       </div>
       <TextControl
-        label={__('URL', 'b-blocks')}
+        label={__('URL', 'social-media-embed')}
         value={facebook.url[facebook.type]}
         onChange={(value) => update('url', value, [facebook.type])}
       />
       <ToggleControl
-        label={__('Full Post', 'b-blocks')}
+        label={__('Full Post', 'social-media-embed')}
         checked={facebook.fullPost}
         onChange={(value) => update('fullPost', value)}
       />
       {facebook.type === 'video' && (
         <Fragment>
           <ToggleControl
-            label={__('Show Caption', 'b-blocks')}
+            label={__('Show Caption', 'social-media-embed')}
             checked={facebook.caption}
             onChange={(value) => update('caption', value)}
           />
           <ToggleControl
-            label={__('Full Screen', 'b-blocks')}
+            label={__('Full Screen', 'social-media-embed')}
             checked={facebook.fullScreen}
             onChange={(value) => update('fullScreen', value)}
           />
           <ToggleControl
-            label={__('Auto Play', 'b-blocks')}
+            label={__('Auto Play', 'social-media-embed')}
             checked={facebook.autoPlay}
             onChange={(value) => update('autoPlay', value)}
           />
         </Fragment>
       )}
       <div className="fbebPanelStyle">
-        <span>{__('Width', 'b-blocks')}</span>
+        <span>{__('Width', 'social-media-embed')}</span>
         <NumberControl
           style={{ width: '140px', marginBottom: '0' }}
           value={facebook.width}
