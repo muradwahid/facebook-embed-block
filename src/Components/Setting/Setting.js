@@ -34,6 +34,10 @@ const Setting = ({ attributes, setAttributes }) => {
           onChange={(value) => update('appId', value)}
         />
       </div>
+      <div style={{marginTop:"-18px",marginBottom:"10px"}}>
+        <small>{"Don't have an APP ID "} <a href="https://developers.facebook.com/apps/"
+          target='_blank' rel='noreferrer'>click here</a> </small>
+      </div>
       <div className="fbebPanelStyle">
         <span>{__('Type', 'social-media-embed')}</span>
         <SelectControl
